@@ -31,16 +31,17 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [
+INSTALLED_APPS = [    
+    'firstapi',
+    'rest_framework',
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'firstapi',
-    'rest_framework',
-    'whitenoise.runserver_nostatic',
+
 ]
 
 MIDDLEWARE = [
